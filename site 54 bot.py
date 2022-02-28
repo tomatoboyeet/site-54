@@ -18,7 +18,7 @@ async def on_message(msg):#8027 5090
         if msg.channel.id==943143600181624872 or'nigger'in msg.content.lower().replace(' ','').replace('_','').replace('*','')or'faggot'in msg.content.lower().replace(' ','').replace('_','').replace('*','')or'nigga'in msg.content.lower().replace(' ','').replace('_','').replace('*',''):await msg.delete()
         else:
             if'930000443017429032'in msg.content:await msg.channel.send('wassup bro')
-            if'<:troll:943146567181938768>'in msg.content:await msg.channel.send('<:troll:943146567181938768>')
+            if'<:troll:943146567181938768>'in msg.content or'troll'in msg.content.lower().replace(' ',''):await msg.channel.send('<:troll:943146567181938768>')
             if'21'in msg.content.lower():await msg.channel.send('you stupid')
             if msg.content.lower().startswith('im ')or msg.content.lower().startswith("i'm "):await msg.channel.send("hi "+msg.content.replace('im ','').replace("i'm ",'')+', im dad <:troll:943146567181938768>')#1921 1113
             elif msg.content.lower().startswith('sb help'):await msg.channel.send("deal with it lol.")
