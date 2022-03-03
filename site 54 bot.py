@@ -43,4 +43,4 @@ async def on_message(msg):#8027 5090
 async def on_reaction_add(reaction,user):
     if reaction=='🎩':await bot.add_roles(user.id,discord.utils.get(server.roles,name="alpha boy🎩"))
     elif reaction=='👒':await bot.add_roles(user.id,discord.utils.get(server.roles,name='Material girl👒'))
-bot.run('OTMwMDAwNDQzMDE3NDI5MDMy.YdvgaA.P1EMZkXmpfc_nVYBwMBqB5z9iPw')
+bot.run('OTQ4OTM5MTc0OTkwNDYzMDE3.YiDGeQ.FKy0F-Tugt_s82MsrPXRIcsRfZo')
